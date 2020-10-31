@@ -1,0 +1,68 @@
+:root {
+  --blue: #1e90ff;
+  --green: #2ed15a;
+}
+
+.launch-circle {
+  width: 60%;
+  margin-top: 50px;
+}
+
+.short-status {
+  margin-top: 60px;
+}
+
+.status-title {
+  font-weight: bold;
+  font-size: 125%;
+  margin: 0px;
+}
+
+.status-detail {
+  opacity: 0.9;
+}
+
+.footprint {
+  margin-top: 100px;
+}
+
+.footprint-title {
+  font-size: 25px;
+  display: block;
+  width: 100%;
+}
+
+.footprint a,
+a.simple {
+  color: #949494;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #949494;
+}
+
+a.simple:hover {
+  color: white;
+  border-bottom-color: var(--green);
+}
+
+.battery {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+body {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.battery-manage {
+  margin-top: 100px;
+}
+
+i {
+  margin-right: 10px;
+  font-weight: lighter !important;
+}

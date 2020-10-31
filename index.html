@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Ionic JavaScript Starter</title>
+<html lang="en">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green App</title>
+  <link rel="stylesheet" href="css/cyborg.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
 </head>
 
 <body>
-  
+  <div class="mx-auto launch-circle">
+    <img src="img/circle-icon.svg" width="100%" />
+  </div>
 
+  <div class="short-status container">
+    <div class="row text-center">
+      <div class="col">
+        <p class="status-title">102</p>
+        <span class="status-detail">Total Apps</span>
+      </div>
+      <div class="col">
+        <p class="status-title">37</p>
+        <span class="status-detail">Bad Apps</span>
+      </div>
+      <div class="col">
+        <p class="status-title">4.5</p>
+        <span class="status-detail">Battery (V)</span>
+      </div>
+    </div>
+  </div>
+  <div class="footprint container">
+    <div class="row text-center">
+      <div class="col">
+        <h1 class="footprint-title">Equivalent coal: 200 KG</h1>
+        <a onclick="t('battery.html')" class="text-center simple">See Details</a>
+      </div>
+
+    </div>
+  </div>
 
 </body>
-<script src='node_modules/@ionic/core/dist/ionic.js'></script>
-<script src="src/index.js"></script>
 
 </html>
