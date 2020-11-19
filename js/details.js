@@ -48,4 +48,6 @@ for (const app of apps) {
   `;
 }
 
-appsList.innerHTML = listString;
+if (appsList) {
+  appsList.innerHTML = listString;
+}
