@@ -53,6 +53,10 @@ a {
   cursor: pointer;
 }
 
+* {
+  transition: all 0.4s;
+}
+
 body {
   opacity: 0;
   transition: opacity 0.2s;
@@ -65,4 +69,32 @@ body {
 i {
   margin-right: 10px;
   font-weight: lighter !important;
+}
+
+.app {
+  max-width: 80%;
+}
+
+.list-group-item:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.list-group h6 {
+  font-size: 120%;
+}
+
+.app-logo {
+  max-width: 60%;
+}
+
+.graph img {
+  width: 100%;
+}
+
+.card {
+  background-color: transparent;
+}
+
+h6 {
+  font-size: 120%;
 }

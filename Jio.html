@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jio App | Manage | Green</title>
+    <link rel="stylesheet" href="css/cyborg.css">
+    <link rel="stylesheet" href="css/toastr.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/toastr.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="navbar-brand mb-0 h1">
+            <i class="icon-chevron-left" onclick="t('manage.html')"></i>
+            App Details</span>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 text-center">
+                <img src="img/jio.png" alt="" class="app-logo">
+            </div>
+            <div class="col-8">
+                <h5 style="margin-bottom:0px">Reliance Jio</h5>
+                <span>by Reliance Infocom Ltd</span>
+            </div>
+        </div>
+        <hr>
+        <div class="alert alert-secondary">
+            <div class="icon-lightbulb"></div> Recommended to put the app to sleep.
+        </div>
+        <hr>
+        <div class="row text-center">
+            <div class="col-4">
+                <div class="text-danger">High</div>Power usage
+            </div>
+            <div class="col-4">
+                <div class="text-warning">Medium</div>Data usage
+            </div>
+            <div class="col-4">
+                <div class="text-primary">Possible Spyware</div>
+            </div>
+        </div>
+        <hr>
+        <div class="more">
+            <div class="row">
+                <div class="col-6">
+                    <div class="btn btn-block btn-primary" onclick="sleep('jio')"><span class="icon-time"></span> Sleep
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="btn btn-block btn-warning" onclick="uninstall('jio')"><span class="icon-trash"></span>
+                        Uninstall</div>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title">
+                                <div class="icon-time"></div> Usage History
+                            </h6>
+                            <div class="graph">
+                                <img src="img/high-mid.svg" alt="Reliance Jio Usage">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="js/details.js"></script>
+
+</body>
+
+</html>
